@@ -1,0 +1,12 @@
+{
+  "name": "AutoCutter",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "express": "^2.5.11",
+    "gulp": "^3.9.1"
+  },
+  "author": "JY.Mr",
+  "license": "ISC"
+}
