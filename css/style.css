@@ -1,0 +1,23 @@
+.container{width: 1720px;margin: 0 auto;}
+
+/*导航*/
+.nav{height: 80px;}
+
+/*页面底部*/
+.footer{width: 1720px;border-top:5px solid #7f2d28;border-bottom: 2px solid #7f2d28;font-family: 'MicrosoftYaHei-Bold';height: 143px;}
+.footer .footer-contact{font-size: 20px;color: #535353;padding: 36px 20px;width: 344px;float: left;}
+.footer .footer-contact img{margin-top: 12px;}
+.footer .footer-about{font-size: 14px;color: #666;line-height: 24px;float: left;padding: 36px 0 36px 72px;border-left: 1px solid #e4e4e4;}
+.footer .footer-about a{margin-right: 15px;color: #666;}
+
+/* 资讯列表 */
+.information{width: 100%;overflow: hidden;}
+.information .information-group{width: 50%;float: left;box-sizing: border-box;}
+.information .information-group-1{padding-right: 50px;}
+.information .information-group-2{padding-left: 50px;}
+.information-group .group-title{border-bottom: 1px solid #e4e4e4;margin-bottom: 30px;}
+.information-group .group-title h3{color: #525252;font-size: 18px;font-weight: normal;border-bottom: 4px solid #95444e;margin-bottom: -1px;line-height: 46px;display: inline-block;}
+.information-group .group-img{float: left;}
+.information-group .group-list{margin-left: 376px;}
+.information-group .group-list a{display: block;font-size: 16px;color: #666;line-height: 37px;}
+.information-group .group-list a span{float: right;font-size: 14px;color: #b8b8b8;}
