@@ -51,8 +51,8 @@
 .content-1 .text{position: absolute;top: 12%;left: 10%;width: 20%;}
 .content-1 .feature{width: 82%;position: absolute;left: 0;right: 0;margin: auto;top: 48%;}
 .content-1 .feature-item{width: 25%;padding: 0 5px;float: left;box-sizing: border-box;}
-.content-1 .feature-item img{width: 100%;}
-.content-1 .feature-item .feature-text{background-color: #FFF;color: #000;line-height: 24px;font-size: 14px;padding: 14px 4% 22px 4%;text-align: center;}
+.content-1 .feature-item > img{width: 100%;}
+.content-1 .feature-item .feature-text{background-color: #FFF;color: #000;line-height: 24px;font-size: 14px;padding: 14px 4% 22px 4%;text-align: center;user-select: none;}
 
 .content-2{width: 100%;background: url(../images/content_bg.png) top center no-repeat;background-size: 100% auto;padding-top: 20%;padding-bottom: 7%;}
 .content-2 > img{position: absolute;top: 4%;right: 10%;width: 20%;}
@@ -66,7 +66,7 @@
 .content-3 .content-title img{width: 25%;}
 .content-3 .content-des{width: 82%;margin: 0 auto;overflow: hidden;}
 .content-3 .des-item{overflow: hidden;position: relative;background-color: #F5f5f5;}
-.content-3 .des-item .des-text{font-size: 16px;line-height: 24px;width: 50%;box-sizing: border-box;padding: 0 12.5%;position: absolute;top: 50%;transform: translate(0, -50%);}
+.content-3 .des-item .des-text{font-size: 16px;line-height: 24px;width: 50%;box-sizing: border-box;padding: 0 12.5%;position: absolute;top: 50%;transform: translate(0, -50%);user-select: none;color: #333333;}
 .content-3 .des-item .des-text.right{right: 0;}
 .content-3 .des-item .des-text i{background: url(../images/way_text_sprite.png) 0 0 no-repeat;display: block;width: 50px;height: 46px;margin: 0 auto 20px auto;}
 .content-3 .des-item .des-text i.i_2{background-position: -50px 0;}
@@ -81,8 +81,15 @@
 /* 海南黄花梨内容 */
 .content .banner{width: 100%;}
 .content .banner img{width: 100%;}
+.content-1 .feature-item{width: 33.33%;padding: 0 5px;float: left;box-sizing: border-box;}
+.content-hainan .content-1{margin-top: 6%;}
 .content-hainan .content-1 .text{left: auto;right: 10%;}
-.content-hainan .content-3 .content-des{border-top: 2px solid #7f2d28;margin-top: 6%;}
+.content-hainan .content-1 .feature{top: 34%;}
+.content-hainan .content-1 .feature > img{width: 100%;}
+.content-hainan .content-1 .feature > img + img{margin-top: 6%;}
+.content-hainan .content-1 .feature-text img{margin: 30px 0 15px 0;}
+.content-hainan .content-1 .feature-text p{display: block;min-height: 120px;color: #333333;}
+.content-hainan .content-3 .content-des{border-top: 2px solid #7f2d28;border-bottom: 2px solid #7f2d28;margin-top: 6%;}
 .content-hainan .content-3 .des-item .des-text{padding: 0 6%;font-size: 14px;}
 
 /*联系我们 */
