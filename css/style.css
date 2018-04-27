@@ -10,13 +10,18 @@
 .nav-list a.active,.nav-list a:hover{border-bottom: 5px solid #7f2d28;}
 .nav-list a.active:after,.nav-list a:hover:after{background-color: #7f2d28;}
 .nav-list span{display: block;text-transform:uppercase;color: #9d9d9e;font-size: 12px;margin-top: 10px;}
+@media screen and (max-width: 1440px) {
+     .nav-list a + a{margin-left: 15px;}
+}
 
 /*页面底部*/
-.footer{width: 1720px;border-top:5px solid #7f2d28;border-bottom: 2px solid #7f2d28;font-family: 'MicrosoftYaHei-Bold';height: 143px;margin-top: 60px;}
-.footer .footer-contact{font-size: 20px;color: #535353;padding: 36px 20px;width: 344px;float: left;}
-.footer .footer-contact img{margin-top: 12px;}
-.footer .footer-about{font-size: 14px;color: #666;line-height: 24px;float: left;padding: 36px 0 36px 72px;border-left: 1px solid #e4e4e4;}
+.footer{width: 100%;border-top:5px solid #7f2d28;border-bottom: 2px solid #7f2d28;font-family: 'MicrosoftYaHei-Bold';height: 143px;margin-top: 60px;margin-bottom: 20%;}
+.footer .footer-contact{font-size: 20px;color: #535353;padding: 36px 20px;width: 22%;float: left;box-sizing: border-box;}
+.footer .footer-contact img{margin-top: 12px;max-width: 100%;}
+.footer .footer-about{font-size: 14px;color: #666;line-height: 24px;float: left;padding: 36px 0 36px 72px;border-left: 1px solid #e4e4e4;width: 42%;box-sizing: border-box;}
 .footer .footer-about a{margin-right: 15px;color: #666;}
+.footer .footer-qrcoder{width: 18%;float: left;text-align: center;border-left: 1px solid #e4e4e4;box-sizing: border-box;height: 100%;padding: 3%;}
+.footer .footer-qrcoder img{max-width: 100%;}
 
 /* 资讯列表 */
 .information{width: 100%;overflow: hidden;margin-top: 7%;}
@@ -28,7 +33,7 @@
 .information-group .group-img{float: left;width: 40%;}
 .information-group .group-img img{width: 100%;}
 .information-group .group-list{margin-left: 45%;}
-.information-group .group-list a{display: block;font-size: 16px;color: #666;line-height: 37px;}
+.information-group .group-list a{display: block;font-size: 14px;color: #666;line-height: 37px;}
 .information-group .group-list a span{float: right;font-size: 14px;color: #b8b8b8;}
 
 /*页头图片*/
@@ -37,10 +42,10 @@
 .header .text{position: absolute;z-index: 2;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
 
 /* 标题 */
-.header-title{fon t-size: 14px;line-height: 1;padding: 19px 0 17px 0;color: #767676;border-bottom: 2px solid #7f2d28;}
+.header-title{font-size: 14px;line-height: 1;padding: 19px 0 17px 0;color: #767676;border-bottom: 2px solid #7f2d28;}
 .header-title a{color: #767676;}
 
-/* 内容 */
+/* 大红酸枝内容 */
 .content{position: relative;}
 .content-1 > img{position: relative;top: 0;}
 .content-1 .bg{width: 100%;}
@@ -50,17 +55,10 @@
 .content-1 .feature-item img{width: 100%;}
 .content-1 .feature-item .feature-text{background-color: #FFF;color: #000;line-height: 24px;font-size: 14px;padding: 14px 4% 22px 4%;text-align: center;}
 
-.content-2{width: 100%;background: url(../images/content_bg.png) top center no-repeat;background-size: 100% auto;padding-top: 25%;padding-bottom: 7%;}
-.content-2 > img{position: absolute;top: 12%;right: 10%;width: 20%;}
-.content-2 .issue{width: 70%;margin-left: 20%;background: url(../images/issue_bg.png) top center no-repeat;overflow: hidden;padding: 50px;box-sizing: border-box;background-size: 100% auto;}
-.content-2 .issue-item{float: left;padding: 30px;}
-.content-2 .issue-item-half{width: 50%;}
-.content-2 .issue-item .title{margin-bottom: 28px;}
-.content-2 .issue-item .answer{color: #FFF;font-size: 14px;overflow: hidden;}
-.content-2 .issue-item .answer + .answer{margin-top: 48px;}
-.content-2 .issue-item .answer img{float: left;}
-.content-2 .issue-item .answer h3{margin-left: 120px;font-size: 20px;margin-bottom: 15px;background: url(../images/answer_icon.png) left center no-repeat;padding-left: 25px;}
-.content-2 .issue-item .answer p{margin-left: 120px;}
+.content-2{width: 100%;background: url(../images/content_bg.png) top center no-repeat;background-size: 100% auto;padding-top: 20%;padding-bottom: 7%;}
+.content-2 > img{position: absolute;top: 4%;right: 10%;width: 20%;}
+.content-2 .issue{width: 70%;margin-left: 20%;}
+.content-2 .issue img{width: 100%;}
 
 .content-3 > img{width: 100%;}
 .content-3 .bg{width: 100%;}
@@ -78,3 +76,10 @@
 .content-3 .way-item .way-text i.i_5{background-position: -197px 0;}
 .content-3 .way-item .way-img{width: 50%;}
 .content-3 .way-item .way-img img{width: 100%;}
+
+/*联系我们 */
+.about-content{padding-left: 14%;}
+.map{width: 45%;float: left;}
+.map img{width: 100%;}
+.about-contact h2{color: #333;font-size: 20px;}
+.about-contact h2 span{color: #924e49;font-size: 20px;text-transform:uppercase;}
