@@ -1,4 +1,4 @@
-.container{max-width: 1720px;margin: 0 auto;width: 90%}
+.container{max-width: 1720px;margin: 0 auto;width: 90%;min-width: 1366px;}
 
 /*导航*/
 .nav{height: 80px;}
@@ -20,8 +20,8 @@
 .footer .footer-contact img{margin-top: 12px;max-width: 100%;}
 .footer .footer-about{font-size: 14px;color: #666;line-height: 24px;float: left;padding: 36px 0 36px 72px;border-left: 1px solid #e4e4e4;width: 42%;box-sizing: border-box;}
 .footer .footer-about a{margin-right: 15px;color: #666;}
-.footer .footer-qrcoder{width: 18%;float: left;text-align: center;border-left: 1px solid #e4e4e4;box-sizing: border-box;height: 100%;padding: 3%;}
-.footer .footer-qrcoder img{max-width: 100%;}
+.footer .footer-qrcoder{width: 18%;float: left;text-align: center;border-left: 1px solid #e4e4e4;height: 100%;margin-left: -1px;position: relative;}
+.footer .footer-qrcoder img{max-width: 80%;position: absolute;top: 0;bottom: 0;margin: auto;left: 0;right: 0;}
 
 /* 资讯列表 */
 .information{width: 100%;overflow: hidden;margin-top: 7%;}
@@ -39,14 +39,13 @@
 /*页头图片*/
 .header{width: 100%;position: relative;}
 .header .bg{width: 100%;}
-.header .text{position: absolute;z-index: 2;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
 
 /* 标题 */
 .header-title{font-size: 14px;line-height: 1;padding: 19px 0 17px 0;color: #767676;border-bottom: 2px solid #7f2d28;}
 .header-title a{color: #767676;}
 
 /* 大红酸枝内容 */
-.content{position: relative;}
+.content{position: relative;width: 100%;}
 .content-1 > img{position: relative;top: 0;}
 .content-1 .bg{width: 100%;}
 .content-1 .text{position: absolute;top: 12%;left: 10%;width: 20%;}
@@ -65,21 +64,49 @@
 .content-3 .text{position: absolute;top: 12%;left: 10%;width: 20%;}
 .content-3 .content-title{text-align: center;padding: 3% 0;}
 .content-3 .content-title img{width: 25%;}
-.content-3 .content-way{width: 82%;margin: 0 auto;overflow: hidden;}
-.content-3 .way-item{overflow: hidden;position: relative;}
-.content-3 .way-item .way-text{font-size: 16px;line-height: 24px;width: 50%;box-sizing: border-box;padding: 0 12.5%;position: absolute;top: 50%;transform: translate(0, -50%);}
-.content-3 .way-item .way-text.right{right: 0;}
-.content-3 .way-item .way-text i{background: url(../images/way_text_sprite.png) 0 0 no-repeat;display: block;width: 50px;height: 46px;margin: 0 auto 20px auto;}
-.content-3 .way-item .way-text i.i_2{background-position: -50px 0;}
-.content-3 .way-item .way-text i.i_3{background-position: -98px 0;}
-.content-3 .way-item .way-text i.i_4{background-position: -147px 0;}
-.content-3 .way-item .way-text i.i_5{background-position: -197px 0;}
-.content-3 .way-item .way-img{width: 50%;}
-.content-3 .way-item .way-img img{width: 100%;}
+.content-3 .content-des{width: 82%;margin: 0 auto;overflow: hidden;}
+.content-3 .des-item{overflow: hidden;position: relative;background-color: #F5f5f5;}
+.content-3 .des-item .des-text{font-size: 16px;line-height: 24px;width: 50%;box-sizing: border-box;padding: 0 12.5%;position: absolute;top: 50%;transform: translate(0, -50%);}
+.content-3 .des-item .des-text.right{right: 0;}
+.content-3 .des-item .des-text i{background: url(../images/way_text_sprite.png) 0 0 no-repeat;display: block;width: 50px;height: 46px;margin: 0 auto 20px auto;}
+.content-3 .des-item .des-text i.i_2{background-position: -50px 0;}
+.content-3 .des-item .des-text i.i_3{background-position: -98px 0;}
+.content-3 .des-item .des-text i.i_4{background-position: -147px 0;}
+.content-3 .des-item .des-text i.i_5{background-position: -197px 0;}
+.content-3 .des-item .des-img{width: 50%;}
+.content-3 .des-item .des-img img{width: 100%;}
+.content-3 .des-item .des-text:after{ width: 0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 40px solid #f5f5f5;position: absolute;top: 0;bottom: 0;margin: auto; right: -20px;content:'';display: block;}
+.content-3 .des-item .des-text.right:after{left: -20px; border-top: 20px solid transparent;border-right: 40px solid #f5f5f5;border-bottom: 20px solid transparent;border-left: none;right: auto;}
+
+/* 海南黄花梨内容 */
+.content .banner{width: 100%;}
+.content .banner img{width: 100%;}
+.content-hainan .content-1 .text{left: auto;right: 10%;}
+.content-hainan .content-3 .content-des{border-top: 2px solid #7f2d28;margin-top: 6%;}
+.content-hainan .content-3 .des-item .des-text{padding: 0 6%;font-size: 14px;}
 
 /*联系我们 */
-.about-content{padding-left: 14%;}
-.map{width: 45%;float: left;}
-.map img{width: 100%;}
-.about-contact h2{color: #333;font-size: 20px;}
-.about-contact h2 span{color: #924e49;font-size: 20px;text-transform:uppercase;}
+.about-content{padding-left: 14%;overflow: hidden;margin-top: 6%;}
+.about-content .map{width: 45%;float: left;}
+.about-content .map img{width: 100%;}
+.about-content .about-contact{margin-left: 6%;float: left;}
+.about-content .about-contact h2{color: #333;font-size: 20px;margin-top: 4%;font-weight: normal;position: relative;}
+.about-content .about-contact h2:after{content: '';display: block;width: 6px;height: 18px;background-color: #924e49;position: absolute;left: 0;top: 0;bottom: 0;margin: auto;left: -16px;}
+.about-content .about-contact h2 span{color: #924e49;font-size: 20px;text-transform:uppercase;}
+.about-content .about-contact .mobile{margin: 37px 0 20px 0;}
+.about-content .about-contact h3{font-size: 14px;font-weight: normal;}
+.about-content .about-qrcode{width: 60%;margin: 20% auto 0 auto;}
+.about-content .about-qrcode img{width: 100%;}
+
+/*一键预约*/
+.about-reservation{margin-top: 4%;padding: 2% 4%; border: 1px solid #ddd;overflow: hidden;background: url(../images/logo_opacity.png) 95% center no-repeat;}
+.about-reservation h3{color: #333;font-size: 16px;font-weight: normal;margin-bottom: 18px;}
+.about-reservation h3 span{font-size: 12px;color: #999;margin-left: 20px;}
+.about-input{ width: 15%;height: 40px;border: solid 1px #ddd;float: left;margin-right: 15px;}
+.about-input input[type=text]{box-sizing: border-box; width: 100%;height: 100%;padding-left: 40px;}
+.about-input .name{background: url(../images/input_icon_01.png) 12px center no-repeat;}
+.about-input .mobile{background: url(../images/input_icon_02.png) 12px center no-repeat;}
+.about-input .city{background: url(../images/input_icon_03.png) 12px center no-repeat;}
+.about-input .btn{background-color: #7f2d28;color: #FFF;width: 100%;height: 100%;font-size: 16px;color: #ddd;}
+.reservation-list{line-height: 1;margin-top: 15px;padding-left: 30px;height: 40px;overflow: hidden;background: url(../images/input_icon_04.png) 0 center no-repeat;width: 100%;line-height: 40px;color: #333;font-size: 14px;}
+.reservation-list span{color: #999;}
