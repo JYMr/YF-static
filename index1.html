@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/basic.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+</head>
+<body>
+
+	<div class="container">
+		<!-- 导航 -->
+		<div class="nav">
+			<div class="logo">
+				<img src="images/logo.png" alt="">
+			</div>
+
+			<div class="nav-list">
+				<a href="javaScript:;" class="list-item active">
+					誉丰林·首页<span>home</span>
+				</a>
+				<a href="javaScript:;" class="list-item">
+					精品甄选<span>boutique</span>
+				</a>
+				<a href="javaScript:;" class="list-item">
+					品牌之说<span>brand</span>
+				</a>
+				<a href="javaScript:;" class="list-item"> 
+					海南黄花梨<span>rosewood from hainan</span>
+				</a>
+				<a href="javaScript:;" class="list-item">
+					大红酸枝<span>rosewood</span>
+				</a>
+				<a href="javaScript:;" class="list-item">
+					寻木游记<span>journey </span>
+				</a>
+				<a href="javaScript:;" class="list-item">
+					私人定制<span>customized</span>
+				</a>
+				<a href="javaScript:;" class="list-item">
+					联系我们<span>contact</span>
+				</a>
+			</div>
+		</div>
+
+
+		<!-- 主要内容 -->
+		<div class="content">
+			<!-- Banner -->
+			<div class="banner">
+				<div class="swiper-container banner-swiper">
+					<div class="swiper-prev"></div>
+    				<div class="swiper-next"></div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="javaScript:;">
+								<img src="images/banner_01.png" alt="誉丰林红木匠心定制 传承经典">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="javaScript:;">
+								<img src="images/banner_01.png" alt="誉丰林红木匠心定制 传承经典">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="index-production clearfix">
+				<h3 class="index-production-title">
+					生产基地<i>production base</i>
+				</h3>
+				<div class="production-swiper">
+					<div class="swiper-container banner3-swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="images/banner3.png">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/banner3.png">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="production-list">
+					<div class="production-item">
+						<img src="images/production_img_01.png">
+						<p>3家海内外自营生产基地<br>2家海外长期合作基地</p>
+						<span>确保每一处用料真实可溯</span>
+					</div>
+					<div class="production-item">
+						<img src="images/production_img_02.png">
+						<p>22年专注红木家具<br>最早一批师傅级工匠</p>
+						<span>注重每一处细节与做工</span>
+					</div>
+					<div class="production-item">
+						<img src="images/production_img_03.png">
+						<p>个性化<br>搭配定制服务</p>
+						<span>专人监督并阶段性报告</span>
+					</div>
+					<div class="production-item">
+						<img src="images/production_img_04.png">
+						<p>持续寻找<br>稀缺木材</p>
+						<span>给你稀缺中的优质品</span>
+					</div>
+					<div class="production-item">
+						<img src="images/production_img_05.png">
+						<p>终身维护<br>全程管理与跟踪</p>
+						<span>随时关注家具护理状况</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Banner2 -->
+			<div class="banner">
+				<img src="images/banner2.png" alt="溯源之旅">
+			</div>
+		</div>
+
+		<!-- 页面底部 -->
+		<div class="footer">
+			<div class="footer-contact">
+				<p>联系我们</p>
+				<img src="images/contact.png" alt="186-7603-7777">
+			</div>
+			<div class="footer-about">
+				<p>国内分部地址：广东省中山市沙溪镇新濠路90号</p>
+				<p>版权所有 © 中山市誉丰林家具有限公司</p>
+				<p><a href="JavaScript:;">百度地图</a><a href="JavaScript:;">谷歌地图</a><a href="JavaScript:;">统计代码</a></p>
+			</div>
+			<div class="footer-qrcoder">
+				<img src="images/qrcoder_01.png" alt="">
+			</div>
+			<div class="footer-qrcoder">
+				<img src="images/qrcoder_02.png" alt="">
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.banner-swiper', {
+			autoplay: 5000,//可选选项，自动滑动
+			pagination : '.swiper-pagination',
+			prevButton:'.swiper-prev',
+			nextButton:'.swiper-next',
+		})
+		var mySwiper2 = new Swiper('.banner3-swiper', {
+			autoplay: 5000,//可选选项，自动滑动
+			pagination : '.swiper-pagination',
+			prevButton:'.swiper-prev',
+			nextButton:'.swiper-next',
+		})
+	</script>
+
+</body>
+</html>

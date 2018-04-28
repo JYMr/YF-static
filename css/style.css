@@ -102,7 +102,9 @@
 
 .content-customized .content-title{padding: 3% 0 1% 0;border-bottom: 1px solid #7f2d28;}
 .content-customized .content-title img{width: 22%;}
-.customized-1{overflow: hidden;position: relative;}
+.content-customized .content-title img.img-1{width: 33.5%;}
+.customized > img{width: 100%;}
+.customized-1{overflow: hidden;position: relative;background-color: #fbfbfd;}
 .customized-1 .customized-img{width: 60%;}
 .customized-1 .customized-img img{width: 100%;}
 .customized-1 .customized-text{margin-left: 60%;padding: 0 4%;position: absolute;top: 50%;transform: translate(0, -50%);}
@@ -110,8 +112,19 @@
 .customized-1 .customized-text ul{width: 100%;font-size: 12px;color: #333;margin-top: 40px;}
 .customized-1 .customized-text ul li{padding-left: 20px;background: url(../images/customized_point.png) left center no-repeat;background-size:  10px;}
 .customized-1 .customized-text ul li + li{margin-top: 20px;}
-.customized-2 > img{width: 23%;float: left;}
+.customized-2{background: #f6f6f6;}
+.customized-2 .step-list{padding: 6% 0;}
+.customized-2 .step-list img{width: 100%;}
+.customized-2 > img{width: 23%;float: left;} 
 .customized-2 .video{width: 54%;float: left;}
+
+/*Banner*/
+.swiper-container{position: relative;}
+.swiper-pagination span.swiper-pagination-bullet{ width: 50px;height: 3px;background-color: #fff;border-radius: 0;opacity: 1;}
+.swiper-pagination span.swiper-pagination-bullet-active{background-color: #7f2d28;}
+.swiper-prev{background: url(../images/prev.png) center center no-repeat;width: 32px;height: 64px;position: absolute;left: 4%;z-index: 999;top: 0;bottom: 0;margin: auto;}
+.swiper-next{background: url(../images/next.png) center center no-repeat;width: 32px;height: 64px;position: absolute;right: 4%;z-index: 999;top: 0;bottom: 0;margin: auto;}
+
 
 /*联系我们 */
 .about-content{padding-left: 14%;overflow: hidden;margin-top: 6%;}
@@ -138,3 +151,15 @@
 .about-input .btn{background-color: #7f2d28;color: #FFF;width: 100%;height: 100%;font-size: 16px;color: #ddd;}
 .reservation-list{line-height: 1;margin-top: 15px;padding-left: 30px;height: 40px;overflow: hidden;background: url(../images/input_icon_04.png) 0 center no-repeat;width: 100%;line-height: 40px;color: #333;font-size: 14px;}
 .reservation-list span{color: #999;}
+
+/* 主页 */
+.production-swiper{width: 33.33%;float: left;border-right: 1px solid #f1f1f1;box-sizing: border-box;}
+.production-swiper .swiper-container{width: 66.6%;}
+.production-list{width: 66.67%;float: left;display: flex;text-align: center;}
+.production-list .production-item{float: left;flex: 1;}
+
+.index-production{margin: 3% 0;}
+.index-production-title{font-size: 16px;color: #666;text-transform:uppercase;display: block;height: 26px;line-height: 26px;margin-bottom: 1%;}
+.index-production-title:before{float: left;height: 60%;width: 5px;background-color: #7f2d28;content: '';display: inline-block;margin-top: 4px;margin-right: 10px;}
+.production-list p{font-size: 16px;color: #7f2d28;margin: 12px 0;}
+.production-list span{font-size: 14px;color: #666;}
