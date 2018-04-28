@@ -163,3 +163,9 @@
 .index-production-title:before{float: left;height: 60%;width: 5px;background-color: #7f2d28;content: '';display: inline-block;margin-top: 4px;margin-right: 10px;}
 .production-list p{font-size: 16px;color: #7f2d28;margin: 12px 0;}
 .production-list span{font-size: 14px;color: #666;}
+
+.content-index .content-title{padding: 3% 0 1% 0;border-bottom: 1px solid #7f2d28;}
+.content-index .content-title img{width: 20%;}
+.index-product{text-align: center;}
+.index-product .product-item{width: 280px;display: inline-block;margin: 13px;}
+.index-product .product-item img{width: 100%;}
