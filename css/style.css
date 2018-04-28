@@ -1,4 +1,4 @@
-.container{max-width: 1720px;margin: 0 auto;width: 90%;min-width: 1366px;}
+.container{max-width: 1720px;margin: 0 auto;width: 90%;min-width: 1229px;}
 
 /*导航*/
 .nav{height: 80px;}
@@ -91,6 +91,27 @@
 .content-hainan .content-1 .feature-text p{display: block;min-height: 120px;color: #333333;}
 .content-hainan .content-3 .content-des{border-top: 2px solid #7f2d28;border-bottom: 2px solid #7f2d28;margin-top: 6%;}
 .content-hainan .content-3 .des-item .des-text{padding: 0 6%;font-size: 14px;}
+
+/* 私人定制 */
+.content .banner-data{background-color: #f6f6f6;overflow: hidden;padding: 3% 6% 4% 6%;}
+.content .banner-data > img{width: 20.6%;margin: 0 6px;float: right;}
+.content .banner-data .banner-text{width: 26%;float: left;margin-right: 6%;margin-left: 2%;}
+.content .banner-data .banner-text p{font-size: 14px;color: #333;}
+.content .banner-data .banner-text .banner-text-img{border-bottom: 2px solid #7f2d28;margin-bottom: 3%;}
+.content .banner-data .banner-text .banner-text-img img{width: 40%;margin: 4% 0;}
+
+.content-customized .content-title{padding: 3% 0 1% 0;border-bottom: 1px solid #7f2d28;}
+.content-customized .content-title img{width: 22%;}
+.customized-1{overflow: hidden;position: relative;}
+.customized-1 .customized-img{width: 60%;}
+.customized-1 .customized-img img{width: 100%;}
+.customized-1 .customized-text{margin-left: 60%;padding: 0 4%;position: absolute;top: 50%;transform: translate(0, -50%);}
+.customized-1 .customized-text > img{width: 62%;}
+.customized-1 .customized-text ul{width: 100%;font-size: 12px;color: #333;margin-top: 40px;}
+.customized-1 .customized-text ul li{padding-left: 20px;background: url(../images/customized_point.png) left center no-repeat;background-size:  10px;}
+.customized-1 .customized-text ul li + li{margin-top: 20px;}
+.customized-2 > img{width: 23%;float: left;}
+.customized-2 .video{width: 54%;float: left;}
 
 /*联系我们 */
 .about-content{padding-left: 14%;overflow: hidden;margin-top: 6%;}
