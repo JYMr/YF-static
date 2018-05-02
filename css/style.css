@@ -1,3 +1,60 @@
+/**@description: 公共库类 
+*  @author: Tea.JY 
+*  @update: Tea.JY (2016年6月20日)
+*/
+*{font-family:Helvetica,'microsoft yahei';}
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+margin: 0;
+padding: 0;
+}
+
+/** 设置默认字体 **/
+address, cite, dfn, em, var, i { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul,ol{ list-style: none; }
+
+/** 重置文本格式元素 **/
+i{font-style: normal;}
+a {text-decoration: none;color:#000;}
+a:hover {text-decoration:none;}
+
+/** 重置表单元素 **/
+legend{color:#000;} /* for ie6 */
+fieldset{border:0;} /* img 搭车：让链接里的 img 无边框 */
+img{vertical-align: middle;border: 0;-webkit-tap-highlight-color: #fff;}
+/* 注：optgroup 无法扶正 */
+
+/** 重置表格元素 **/
+table{border-spacing: 0;border-collapse: collapse;}
+
+/** 统一表单边框 **/
+input,button,textarea{border: none;background-color: #fff;-webkit-appearance:none;border-radius: 0;}
+input:focus,button:focus,textarea:focus,select:focus{outline:none;}
+
+/* textarea */
+textarea{resize: none;}
+
+/*屏蔽点击a时，产生的背景*/
+a{tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+body,html{color: #333;height: 100%;}
+
+/*容器浮动*/
+.fl,.float-l{float:left;}
+.fr,.float-r{float:right;}
+
+/*清除浮动*/
+.clearfix{*+height:1%;}
+.clearfix:after{display: block;visibility: hidden;clear: both;height: 0;content: '';}
+
 .container{max-width: 1720px;margin: 0 auto;width: 90%;min-width: 1229px;}
 
 /*导航*/
@@ -81,7 +138,7 @@
 /* 海南黄花梨内容 */
 .content .banner{width: 100%;}
 .content .banner img{width: 100%;}
-.content-1 .feature-item{width: 33.33%;padding: 0 5px;float: left;box-sizing: border-box;}
+.content-hainan .content-1 .feature-item{width: 33.33%;padding: 0 5px;float: left;box-sizing: border-box;}
 .content-hainan .content-1{margin-top: 6%;}
 .content-hainan .content-1 .text{left: auto;right: 10%;}
 .content-hainan .content-1 .feature{top: 34%;}
@@ -164,8 +221,135 @@
 .production-list p{font-size: 16px;color: #7f2d28;margin: 12px 0;}
 .production-list span{font-size: 14px;color: #666;}
 
-.content-index .content-title{padding: 3% 0 1% 0;border-bottom: 1px solid #7f2d28;}
+.content-index .content-title{padding: 3% 0 1% 0;border-bottom: 1px solid #7f2d28;position: relative;}
 .content-index .content-title img{width: 20%;}
+.content-index .content-title img.title-1{width: 15.7%;}
+.content-index .content-title img.title-2{width: 17.2%;}
+.content-index .content-title img.title-3{width: 6.8%;}
+.content-index .content-title img.title-4{width: 19%;}
+.content-index .content-title .title-more{background-color: #7f2d28;display: inline-block;position: absolute;bottom: 0;height: 40%;padding: 0 20px;right: 0;}
+.content-index .content-title .title-more a{color: #FFF;font-size: 12px;display: inline-block;height: 100%;vertical-align: sub;}
 .index-product{text-align: center;}
-.index-product .product-item{width: 280px;display: inline-block;margin: 13px;}
+.index-product{width: 72%;margin: 3% auto 0 auto;overflow: hidden;}
+.index-product .product-item{width: 25%;padding: 8px;box-sizing: border-box;float: left;position: relative;}
+.index-product .product-item.input{padding: 12.5% 0;}
 .index-product .product-item img{width: 100%;}
+.index-product .product-item span{color: #ddd;font-size: 16px;display: block;position: absolute;top: 50%;text-align: center;width: 100%;transform: translate(0, -50%);padding: 0 4px;margin: 0 -4px;box-sizing: border-box;left: 4px;}
+.index-product .product-item.input span{height: 100%;box-sizing: border-box;padding: 8px;}
+.index-product .product-item .input-content{width: 100%;height: 100%;background: #f1f1f1;overflow: hidden;position: relative;}
+.index-product .product-item .input-content h3{color: #313131;font-size: 16px;font-weight: normal;margin: 10% 0 15% 8px;text-align: left;display: block;}
+.index-product .product-item .input-content input{width: 90%;height: 32px;margin-bottom: 8px;padding: 0 8px;box-sizing: border-box;}
+.index-product .product-item .input-content .btn{background-color: #7f2d28;color: #fff;font-size: 14px;position: absolute;bottom: 0;left: 8px;}
+
+.index-area{overflow: hidden;position: relative;}
+.index-area .area-banner{width: 66%;float: left;}
+.index-area .area-map{width: 34%;float: left;}
+.index-area img{width: 100%;}
+
+.index-reason{position: relative;}
+.index-reason > img{width: 100%;}
+.reason-list{width: 88%;margin: auto;position: absolute;top: 50%;left: 0;right: 0;transform: translate(0, -50%);}
+.reason-list img{width: 20%;float: left;}
+
+.index-brands img{width: 100%;}
+.index-certificate{padding: 3% 0;overflow: hidden;}
+.index-certificate img{width: 16.66%;float: left;}
+.information-index{margin-top: 0;}
+
+.index-evaluation{margin: 3% -11px 0 -11px;overflow: hidden;padding: 5px;}
+.index-evaluation .evaluation-item{width: 25%;float: left;box-sizing: border-box;padding: 0 11px;}
+.index-evaluation .evaluation-item a{display: block;box-shadow: 0px 0px 5px 0px rgba(4, 0, 0, 0.18);border-radius: 5px;overflow: hidden;}
+.index-evaluation .evaluation-item img{width: 100%;}
+.index-evaluation .evaluation-item .eval-text{padding: 0 30px;}
+.index-evaluation .evaluation-item .eval-text h3{font-weight: normal;font-size: 16px;color: #666;padding: 16px 0;}
+.index-evaluation .evaluation-item .eval-text p{font-size: 14px;color: #818181;display: block;height: 180px;}
+.eval-time{font-size: 14px;color: #666;padding: 10px 30px;border-top: 1px solid #f1f1f1;}
+
+.area-swiper-tab{position: absolute;bottom: 8%;z-index: 999;padding-left: 7%;width: 100%;box-sizing: border-box;}
+.area-swiper-tab .tab-item{background-color: #ddd;display: inline-block;color: #7f2d28;padding: 1%;font-size: 12px;border: 1px solid #7f2d28;cursor: pointer;}
+.area-swiper-tab .tab-item.active{background-color: #7f2d28;color: #ddd;}
+
+/*海南黄花梨-首页*/
+.index-hainan{position: relative;}
+.index-hainan .bg{width: 100%;}
+.index-hainan-main{position: absolute;top: 3%;left: 0;right: 0;width: 86.4%;margin: 0 auto;}
+.index-hainan-main img{width: 100%;}
+.index-hainan .hainan-list{margin: 0 -11px;}
+.index-hainan .hainan-list .hainan-item{width: 25%;box-sizing: border-box;padding: 0 11px;float: left;margin-top: 3%;}
+.index-hainan .hainan-list .hainan-item p{background-color: #F1F1F1;display: block;color: #878787;font-size: 14px;padding: 32px;height: 220px;}
+
+.index-product-1{margin: 3% -3px 0 -3px;overflow: hidden;}
+.index-product-1 .index-product-item{width: 14.28%;box-sizing: border-box;padding: 0 3px;float: left;position: relative;}
+.index-product-1 .index-product-item img{width: 100%;}
+.index-product-1 .index-product-item span{position: absolute;width: 100%;text-align: center;color: #ffffff;font-size: 14px;box-sizing: border-box;padding: 0 3px;top: 50%;left: 0;}
+
+.product-left{float: left;width: 260px;}
+
+.product-title{height: 40px;line-height: 40px;background-color: #7f2d28;color: #fffefe;font-size: 16px;padding-left: 26px; margin-top: 36px;}
+
+.recommend-list{overflow: hidden;margin-top: 15px;}
+.recommend-list .recommend-item{padding: 4px;width: 50%;box-sizing: border-box;float: left;}
+.recommend-list a{display: block;}
+.recommend-list a img{width: 100%;border: 1px solid #ebebeb;}
+.recommend-list a span{font-size: 14px;color: #808080;line-height: 20px;}
+.new-list a{font-size: 14px;color: #666666;line-height: 35px;display: block;}
+
+.product-right{margin-left: 320px;padding-top: 36px;}
+.product-right .product-category{border-bottom: 1px solid #dddddd;padding-bottom: 10px;}
+.category{line-height: 32px;font-size: 14px;color: #333333;overflow: hidden;}
+.category-type{float: left;width: 80px;}
+.category-list a{margin-right: 20px;}
+.category-list a.active,.category-list a:hover{color: #7f2d28;}
+.product-list{margin: 0 -20px;padding: 20px 0;overflow: hidden;}
+.product-list .product-item{width: 25%;box-sizing: border-box;padding: 0 20px;text-align: center;float: left;}
+.product-list .product-item img{width: 100%;}
+.product-list .product-item span{color: #808080;font-size: 14px;line-height: 42px;}
+
+.product-page{text-align: center;font-size: 12px;color: #666;margin-top: 50px;}
+.product-page a{display: inline-block;width: 34px;height: 34px;text-align: center;background-color: #f7f7f7;line-height: 34px;border: 1px solid #ddd;margin: 0 2px;color: #666;}
+.product-page .button{width: auto;padding: 0 10px;}
+.product-page .disable{color: #ddd;}
+.product-page .active{border-color: #FFF;background-color: #FFF;color: #e4393c;}
+.product-page input{width: 34px;height: 34px;border: 1px solid #ddd;text-align: center;background-color: #f7f7f7;margin-left: 10px;}
+.product-page span{margin: 0 10px;}
+
+/*品牌之说*/
+.brands-item{position: relative;}
+.brands-item img{width: 100%;}
+.brands-item .title{width: 35%;position: absolute;top: 10%;right: 6%;}
+.brands-item .text{width: 40%;position: absolute;position: absolute;top: 10%;left: 6%;}
+
+.travel-item{position: relative;}
+.travel-item img{width: 100%;}
+.travel-item .travel-data{position: absolute;top: 50%;transform: translate(0, -50%);left: 9.3%;}
+.travel-item .travel-text{width: 50%;opacity: 0.8;background-color: #FFF;padding: 70px 30px;}
+.travel-item .travel-text h3{font-size: 36px;font-weight: normal;}
+.travel-item .travel-text span{font-size: 43px;text-transform:uppercase;display: block;margin: 10px 0;}
+.travel-item .travel-text p{font-size: 14px;color: #666464;}
+.travel-item .travel-text a{border: solid 1px #050001;display: inline-block;font-size: 16px;padding: 12px 32px;margin-top: 40px;}
+
+.travel-map{text-align: center;background-color: #f8f8f8}
+.travel-map .title{width: 10%;margin: 30px 0;}
+.travel-map span{font-size: 14px;color: #3c3c3c;display: block;margin-bottom: 50px;}
+.travel-map .travel-list{width: 80%;margin: 0 auto;}
+.travel-map .travel-item{width: 20%;float: left;box-sizing: border-box;padding: 10px;}
+.travel-map .travel-item.active span{background-color: #7f2d28;box-shadow: 0px 0px 4px 0px rgba(4, 0, 0, 0.17);color: #FFF;border-color: #7f2d28;}
+.travel-map .travel-item span{border: 1px solid #050001;padding: 5px 0;}
+
+/*视频模块*/
+.video-container{ position: relative;overflow: hidden;background-color: #000;width: 100%;height: 100%;}
+.video-container video{ position: absolute;top: 0;left: 0;cursor: pointer;}
+
+.video-container .controls{background-color: rgb(0,0,0,.8);position: absolute;width: 100%;height: 100%;}
+.video-container .controls.active{background: rgba(0,0,0,0);}
+.video-container .controls:hover .playTags{opacity: 1;}
+.video-container .playBtn{position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;width: 50px;height: 50px;line-height: 50px;text-align: center;color: #FFF;cursor: pointer;background: url(../images/play_btn.png) center center no-repeat;background-size: cover;}
+.video-container .controls.active .playBtn{opacity: 0;}
+.video-container .controls.active:hover .playBtn{opacity: 1;}
+.video-container .controls .playTags{position: absolute;bottom: 30px;width: 80%;height: 4px;left: 0;right: 0;margin: 0 auto;transition: opacity .5s;opacity: 0;}
+.video-container .controls .playTags .title{font-size: 12px;position: absolute;line-height: 40px;top: -35px;color: #FFF;}
+.video-container .controls .playTags .time{font-size: 12px;position: absolute;line-height: 40px;top: -35px;color: #FFF;right: 0;}
+.video-container .playTagsLine{height: 4px;border-radius: 2px;width: 100%;border: 1px solid #6c6c6c;background-color: #4a4a4a;cursor: pointer;position: relative;}
+.video-container .progressWrap{background-color: #FFF;width: 0%;height: 100%;position: absolute;left: 0;z-index: 2;transition: all linear 1s;}
+.video-container .progressBuffer{width: 0%;height: 100%;position: absolute;left: 0;z-index: 1;}
+.video-container .progressBuffer span{ display: block;float: left;width: 0;height: 100%;background: #4b4c4d;}
