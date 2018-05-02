@@ -22,10 +22,11 @@
 			$video.height(height);
 		}
 
-		init();
 
 		//控制视频播放(只有使用window.onload这个才能获取播放总时长)
 		window.onload = function(){
+			init();
+
 		    var medias = $("#video").get(0);
 		    var duration = $("#video").get(0).duration;  //获取总时间
 		    var vw = $("#video").width();  //视频宽高
