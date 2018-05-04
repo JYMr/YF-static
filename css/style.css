@@ -194,9 +194,9 @@ body,html{color: #333;height: 100%;}
 .content .banner-data{ overflow: hidden;padding: 3% 6% 4% 6%;background-color: #f6f6f6;}
 .content .banner-data > img{ float: right;width: 20.6%;margin: 0 6px;}
 .content .banner-data .banner-text{ float: left;width: 26%;margin-right: 6%;margin-left: 2%;}
-.content .banner-data .banner-text p{ font-size: 14px;color: #333;line-height: 26px;}
-.content .banner-data .banner-text h3{font-family: '宋体';font-size: 22px;line-height: 1; margin-bottom: 3%;padding-bottom: 8px;border-bottom: 2px solid #7f2d28;}
-.content .banner-data .banner-text p + h3{ margin-top: 8px;}
+.content .banner-data .banner-text p{ font-size: 14px;color: #333;line-height: 28px;}
+.content .banner-data .banner-text h3{font-family: '宋体';font-size: 24px;line-height: 1; margin-bottom: 10px;padding-bottom: 8px;border-bottom: 2px solid #7f2d28;}
+.content .banner-data .banner-text p + h3{ margin-top: 30px;}
 
 .content-customized .content-title{ padding: 3% 0 1% 0;border-bottom: 1px solid #7f2d28;}
 .content-customized .content-title h2{ font-family: '宋体';font-size: 26px;line-height: 26px;height: 26px;color: #333;}
@@ -214,12 +214,12 @@ body,html{color: #333;height: 100%;}
 .customized-2{ background: #f6f6f6;}
 .customized-2 .step{width: 90%;margin: 0 auto; padding: 5% 0;}
 .customized-2 .step .step-logo{ float: left;margin-top: 30px;}
-.customized-2 .step .step-list{position: relative; float: left;margin-left: 200px;width: 1190px;}
-.customized-2 .step .step-list:before{ position: absolute;z-index: 1;top: 55px;right: 0;left: 0;display: block;width: 960px;height: 2px;margin: auto;content: '';background-color: #7f2d28;}
-.customized-2 .step-list .step-item{float: left; width: 150px;margin: 0 10px;text-align: center;}
+.customized-2 .step .step-list{position: relative; float: left;margin-left: 100px;width: 1330px;}
+.customized-2 .step .step-list:before{ position: absolute;z-index: 1;top: 55px;right: 0;left: 0;display: block;width: 1100px;height: 2px;margin: auto;content: '';background-color: #7f2d28;}
+.customized-2 .step-list .step-item{float: left; width: 150px;margin: 0 20px;text-align: center;}
 .customized-2 .step-list .step-item img{position: relative;z-index: 2; width: 110px;}
 .customized-2 .step-list .step-item h4{font-family: '宋体'; font-size: 18px;font-weight: normal;margin: 10px 0 5px 0;color: #333;}
-.customized-2 .step-list .step-item p{ font-size: 12px;line-height: 26px;height: 104px;color: #989898;}
+.customized-2 .step-list .step-item p{ font-size: 12px;line-height: 26px;height: 104px;color: #333;}
 .customized-2 .customized-step{ float: left;overflow: hidden;width: 23%;}
 .customized-2 .customized-step .customized-step-item{position: relative;float: left; width: 50%;}
 .customized-2 .customized-step .customized-step-item span{font-family: '宋体';font-size: 24px; position: absolute;top: 0;right: 0;bottom: 0;left: 0;width: 50px;height: 50px;margin: auto;color: #fff;}
@@ -234,14 +234,19 @@ body,html{color: #333;height: 100%;}
 .customized-list .customized-item + .customized-item{ margin-top: 20px;}
 .customized-list .customized-item span{ font-family: '宋体';font-size: 20px;}
 .customized-list .customized-item p{ font-size: 14px;margin-top: 5px;}
-@media screen and (max-width: 1780px){.customized-2 .step .step-list{margin-left: 35px;}}
+@media screen and (max-width: 1780px){
+	.customized-2 .step .step-list{margin-left: 35px;width: 1190px;}
+	.customized-2 .step-list .step-item{margin: 0 10px;text-align: center;}
+}
 @media screen and (max-width: 1600px){
 	.customized-2 .step .step-logo{margin-left: 10px;}
-	.customized-2 .step .step-list{margin-left: 80px;width: 980px;}
-	.customized-2 .step-list .step-item{width: 120px;}
+	.customized-2 .step .step-list{margin-left: 80px;width: 1085px;}
+	.customized-2 .step-list .step-item{width: 135px;}
 	.customized-2 .step .step-list:before{width: 860px;}
 }
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1500px){
+	.customized-2 .step .step-list{margin-left: 80px;width: 980px;}
+	.customized-2 .step-list .step-item{width: 120px;}
 	.customized-2 .step .step-list{margin-left: 50px;}
 }
 
