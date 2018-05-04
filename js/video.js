@@ -18,7 +18,7 @@
 
 		function init(){
 			var $video = $('.video');
-			var height = $video.siblings('img').eq(0).height()
+			var height = $video.siblings('.customized-step').eq(0).height()
 			$video.height(height);
 		}
 
