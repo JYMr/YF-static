@@ -107,7 +107,7 @@ body,html{color: #333;height: 100%;}
 .content{ position: relative;width: 100%;}
 .content-1 > img{ position: relative;top: 0;}
 .content-1 .bg{ width: 100%;}
-.content-1 .text{font-family: '宋体';font-size: 100px; position: absolute;top: 12%;left: 10%;width: 20%;color: #fff;}
+.content-1 .text{font-family: '宋体';font-size: 100px; position: absolute;top: 12%;left: 10%;width: 280px;color: #fff;}
 .content-1 .text i{font-family: '宋体';font-size: 42px;position: absolute;right: 50px;display: block;float: right; width: 1em;margin-top: -114px;margin-right: 30px;}
 .content-1 .text span{ font-family: '宋体';display: inline-block;margin-top: -20px;vertical-align: super;}
 .content-1 .feature{ position: absolute;top: 48%;right: 0;left: 0;width: 82%;margin: auto;}
@@ -119,16 +119,16 @@ body,html{color: #333;height: 100%;}
 .content-1 .feature-item .feature-text{ font-size: 14px;line-height: 24px;height: 48px;padding: 14px 4% 22px 4%;text-align: center;color: #000;background-color: #fff;}
 
 .content-2{ width: 100%;padding-top: 20%;padding-bottom: 7%;background: url(../images/content_bg.png) top center no-repeat;background-size: 100% auto;}
-.content-2 .text{font-family: '宋体';font-size: 100px; position: absolute;top: 1%;right: 10%;width: 20%;color: #000;}
+.content-2 .text{font-family: '宋体';font-size: 100px; position: absolute;top: 1%;right: 10%;width: 280px;color: #000;}
 .content-2 .text i{font-family: '宋体';font-size: 42px;position: absolute;right: 50px;display: block;float: right; width: 1em;margin-top: -114px;margin-right: 30px;}
 .content-2 .text span{ font-family: '宋体';display: inline-block;margin-top: -20px;vertical-align: super;}
 .content-2 .issue{overflow: hidden; width: 70%;margin-left: 20%;padding: 40px 40px 40px 60px;color: #fff;background: url(../images/issue_img.jpg) top center no-repeat;background-size: 100% auto;}
 .issue-item{float: left; width: 50%;}
-.issue-item h3{ font-family: '宋体';margin-bottom: 20px;font-size: 26px;}
+.issue-item h3{ font-family: '宋体';margin-bottom: 15px;font-size: 26px;}
 .issue-item h4{ font-size: 16px;margin-bottom: 6px;padding-left: 24px;background: url(../images/issue_point.png) left center no-repeat;background-size: 16px;}
-.issue-item p{ font-size: 12px;padding-right: 100px;color: #fff;line-height: 18px;}
+.issue-item p{ font-size: 12px;padding-right: 100px;color: #fff;line-height: 22px;}
 .issue-item .issue-list-item{ overflow: hidden;}
-.issue-item .issue-list-item + .issue-list-item{ padding-top: 30px;}
+.issue-item .issue-list-item + .issue-list-item{ padding-top: 20px;}
 .issue-item .issue-list-item-2{float: left;box-sizing: border-box; width: 40%;padding-right: 20px;}
 .issue-item .issue-list-item-2 img{ width: 100%;}
 .issue-item .issue-list-item-2 p{margin-top: 10px; padding-right: 0;line-height: 18px;}
@@ -138,12 +138,12 @@ body,html{color: #333;height: 100%;}
 .issue-item-2{ width: 80%;}
 .issue-item-2 .issue-list-item-2{ padding-bottom: 10px;}
 .issue-item-2 .issue-list-item-2 img{ width: 60%;margin-left: 24px;}
-.issue-item-2 .issue-list-item-2 h4{font-size: 12px;font-weight: normal;line-height: 18px;height: 48px; background-position: left 3px;}
-.issue-item-2 .issue-list-item-2 h4.line-4{ height: 76px;}
+.issue-item-2 .issue-list-item-2 h4{font-size: 12px;font-weight: normal;line-height: 22px;height: 66px; background-position: left 3px;}
+.issue-item-2 .issue-list-item-2 h4.line-4{ height: 88px;}
 
 .content-3 > img{ width: 100%;}
 .content-3 .bg{ width: 100%;}
-.content-3 .text{font-family: '宋体';font-size: 100px; position: absolute;top: 12%;left: 10%;width: 20%;color: #fff;}
+.content-3 .text{font-family: '宋体';font-size: 100px; position: absolute;top: 9%;left: 10%;width: 280px;color: #fff;}
 .content-3 .text i{font-family: '宋体';font-size: 42px;position: absolute;right: 50px;display: block;float: right; width: 1em;margin-top: -114px;margin-right: 30px;}
 .content-3 .text span{ font-family: '宋体';display: inline-block;margin-top: -20px;vertical-align: super;}
 .content-3 .content-title{ padding: 3% 0;text-align: center;}
@@ -156,7 +156,7 @@ body,html{color: #333;height: 100%;}
 .content-3 .des-item .des-img{position: relative;overflow: hidden; width: 50%;}
 .content-3 .des-item .des-img img{ width: 100%;-webkit-transition: all .4s ease-out;-moz-transition: all .4s ease-out;-o-transition: all .4s ease-out;transition: all .4s ease-out;}
 .content-3 .des-item .des-img:hover img{ transform: scale(1.1);-webkit-transform: scale(1.1);-webkit-transform: scale(1.1);transform: scale(1.1);}
-.content-3 .des-item .des-img span{font-family: '宋体';font-size: 105px;position: absolute;top: 50%;right: 0;left: 0;display: block;box-sizing: border-box; width: 285px;width: 285px;height: 285px;height: 285px;margin: auto;padding: 20px 0;transform: translate(0, -50%);text-align: center;color: #fff;background: url(../images/hainan_img_bg.png) center center no-repeat;}
+.content-3 .des-item .des-img span{font-family: '宋体';font-size: 105px;position: absolute;top: 50%;right: 0;left: 0;display: block;box-sizing: border-box; width: 285px;width: 285px;height: 285px;height: 285px;margin: auto;padding: 20px 0;transform: translate(0, -50%);text-align: center;color: #fff;background: url(../images/hainan_img_bg.png) center center no-repeat;line-height: 130px;}
 .content-3 .des-item .des-text:after{ position: absolute;top: 0;right: -20px;bottom: 0;display: block;width: 0;height: 0;margin: auto;content: '';border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 40px solid #f5f5f5;}
 .content-3 .des-item .des-text.right:after{ right: auto;left: -20px;border-top: 20px solid transparent;border-right: 40px solid #f5f5f5;border-bottom: 20px solid transparent;border-left: none;}
 
@@ -166,13 +166,13 @@ body,html{color: #333;height: 100%;}
 .content-hainan .content-1 .feature-item{ float: left;box-sizing: border-box;width: 33.33%;padding: 0 5px;}
 .content-hainan .content-1{ margin-top: 6%;}
 .content-hainan .content-1 .text{top: 8%; right: 10%;left: auto;}
-.content-hainan .content-1 .feature{ top: 34%;}
+.content-hainan .content-1 .feature{ top: 45%;}
 .content-hainan .content-1 .feature img{ width: 100%;}
 .content-hainan .content-1 .feature-text{ height: auto;}
 .content-hainan .content-1 .feature-text h3{font-family: '宋体'; font-size: 26px;margin-top: 24px;margin-bottom: 8px;color: #333;}
 .content-hainan .content-1 .feature-text span{font-family: '宋体'; font-size: 18px;display: block;margin-bottom: 8px;color: #939393;}
 .content-hainan .content-1 .feature-text p{ display: block;min-height: 120px;color: #333;}
-.content-hainan .content-1 .introduce{position: absolute;top: 30%;right: 0;left: 0; width: 90%;margin: auto;}
+.content-hainan .content-1 .introduce{position: absolute;top: 32%;right: 0;left: 0; width: 90%;margin: auto;}
 .content-hainan .content-3 .content-des{ margin-top: 6%;border-top: 2px solid #7f2d28;border-bottom: 2px solid #7f2d28;}
 .content-hainan .content-3 .des-item .des-text{ font-size: 14px;padding: 0 6%;}
 .content-hainan .content-3 .des-item .des-text p{line-height: 32px;}
@@ -214,7 +214,8 @@ body,html{color: #333;height: 100%;}
 .customized-2{ background: #f6f6f6;}
 .customized-2 .step{width: 90%;margin: 0 auto; padding: 5% 0;}
 .customized-2 .step .step-logo{ float: left;margin-top: 30px;}
-.customized-2 .step .step-list{position: relative; float: left;margin-left: 100px;width: 1330px;}
+.customized-2 .step .step-container{margin-left: 42px;}
+.customized-2 .step .step-list{position: relative;width: 1330px;margin: 0 auto;}
 .customized-2 .step .step-list:before{ position: absolute;z-index: 1;top: 55px;right: 0;left: 0;display: block;width: 1100px;height: 2px;margin: auto;content: '';background-color: #7f2d28;}
 .customized-2 .step-list .step-item{float: left; width: 150px;margin: 0 20px;text-align: center;}
 .customized-2 .step-list .step-item img{position: relative;z-index: 2; width: 110px;}
@@ -344,7 +345,9 @@ body,html{color: #333;height: 100%;}
 .index-brands .brands-text{ position: absolute;top: 50%;right: 80px;width: 400px;transform: translate(0, -50%);transform: translate(0,-50%);-webkit-transform: translate(0,-50%);-moz-transform: translate(0,-50%);-o-transform: translate(0,-50%);}
 .index-brands .brands-text p{ font-size: 14px;margin-top: 35px;color: #cbcbcb;}
 .index-certificate{ overflow: hidden;padding: 3% 0;}
-.index-certificate img{ float: left;width: 16.66%;}
+.index-certificate .index-certificate-item{width: 16.66%;float: left;overflow: hidden;}
+.index-certificate .index-certificate-item img{ width: 100%;-webkit-transition: all .4s ease-out;-moz-transition: all .4s ease-out;-o-transition: all .4s ease-out;transition: all .4s ease-out;}
+.index-certificate .index-certificate-item:hover img{transform: scale(1.1);-webkit-transform: scale(1.1);-webkit-transform: scale(1.1);transform: scale(1.1);}
 .information-index{ margin-top: 0;}
 
 .index-evaluation{ overflow: hidden;margin: 3% -11px 0 -11px;padding: 5px;}
@@ -370,7 +373,7 @@ body,html{color: #333;height: 100%;}
 .index-hainan .hainan-list .hainan-item .hainan-item-img{ position: relative;overflow: hidden;}
 .index-hainan .hainan-list .hainan-item .hainan-item-img img{ -webkit-transition: all .4s ease-out;-moz-transition: all .4s ease-out;-o-transition: all .4s ease-out;transition: all .4s ease-out;}
 .index-hainan .hainan-list .hainan-item .hainan-item-img:hover img{ transform: scale(1.1);-webkit-transform: scale(1.1);-webkit-transform: scale(1.1);transform: scale(1.1);}
-.index-hainan .hainan-list .hainan-item span{font-family: '宋体';font-size: 52px;position: absolute;top: 50%;left: 50%;display: block;box-sizing: border-box;width: 160px;height: 160px;margin: -80px 0 0 -80px ;padding: 18px;text-align: center;color: #fff; background: url(../images/hainan_bg.png) center center no-repeat;background-size: 160px 160px;}
+.index-hainan .hainan-list .hainan-item span{font-family: '宋体';font-size: 52px;position: absolute;top: 50%;left: 50%;display: block;box-sizing: border-box;width: 160px;height: 160px;margin: -80px 0 0 -80px ;padding: 18px;text-align: center;color: #fff; background: url(../images/hainan_bg.png) center center no-repeat;background-size: 160px 160px;line-height: 64px;}
 .index-hainan .hainan-list .hainan-item p{ font-size: 14px;display: block;min-height: 220px;padding: 32px;color: #878787;background-color: #f1f1f1;line-height: 24px;}
 
 .index-product-1{ overflow: hidden;margin: 3% -3px 0 -3px;}
@@ -457,6 +460,7 @@ body,html{color: #333;height: 100%;}
 .video-container .controls .playTags{ position: absolute;right: 0;bottom: 30px;left: 0;width: 80%;height: 4px;margin: 0 auto;transition: opacity .5s;opacity: 0;}
 .video-container .controls .playTags .title{ font-size: 12px;line-height: 40px;position: absolute;top: -35px;color: #fff;}
 .video-container .controls .playTags .time{ font-size: 12px;line-height: 40px;position: absolute;top: -35px;right: 0;color: #fff;}
+.video-container .controls .fullscreen{position: absolute;width: 30px;height: 30px;background: url(../images/fullscreen.png) center center no-repeat;background-size: 60% auto;right: -40px;top: -13px;}
 .video-container .playTagsLine{ position: relative;width: 100%;height: 4px;cursor: pointer;border: 1px solid #6c6c6c;border-radius: 2px;background-color: #4a4a4a;}
 .video-container .progressWrap{ position: absolute;z-index: 2;left: 0;width: 0;height: 100%;transition: all linear 1s;background-color: #fff;}
 .video-container .progressBuffer{ position: absolute;z-index: 1;left: 0;width: 0;height: 100%;}
@@ -475,11 +479,19 @@ body,html{color: #333;height: 100%;}
 .fixed .hover:after{ top: 0;right: -18px;bottom: 0;margin: auto;border-width: 10px;border-style: dashed dashed dashed solid;border-color: transparent transparent transparent #fff;}
 .fixed .fixed-item:hover .hover{ display: block;transform: translate(0,0);opacity: 1;}
 
+/*视频弹层*/
+.video-madal{position: fixed;background: rgba(0,0,0,.9);width: 80%;height: 80%;z-index: 999;top: 0;bottom: 0;left: 0;right: 0;margin: auto;display: none;}
+.video-madal .close{position: absolute;right: -50px;top: 0;width: 50px;height: 50px;background: url(../images/video_close.png) center center no-repeat,rgba(0,0,0,.6);background-size: 75%;z-index: 9999;cursor: pointer;}
+
 @media screen and (max-width: 1440px){
 	.nav-list a + a{ margin-left: 15px;}
 
 	.footer .footer-contact .tel{font-size: 32px;}
+
+	.index-brands .brands-num{ position: absolute;top: 60px;left: 30px;}
 	.content-1 .feature-item .feature-item-img span{font-size: 42px;}
-	.content-3 .des-item .des-img span{font-size: 68px;width: 200px;height: 200px;padding: 20px 0;background-size: 200px;}
+	.content-3 .des-item .des-img span{font-size: 68px;width: 200px;height: 200px;padding: 20px 0;background-size: 200px;line-height: 80px;}
+	.index-evaluation .evaluation-item .eval-text p{min-height: 208px;}
+	.index-hainan .hainan-list .hainan-item p{min-height: 240px}
 	.journey-item .journey-text span{ font-size: 30px;}
 }
