@@ -65,8 +65,8 @@ body,html{color: #333;height: 100%;}
 .nav{ height: 80px;}
 .nav .logo{ float: left;margin-top: 17px;}
 .nav-list{ float: right;text-align: center;}
-.nav-list a{ font-size: 16px;line-height: 1;position: relative;float: left;padding: 22px 12px 15px 12px;color: #555658;}
-.nav-list a:after{ position: absolute;top: 26px;left: 0;display: block;width: 7px;height: 7px;margin: auto;content: '';}
+.nav-list a{ font-size: 16px;line-height: 1;position: relative;float: left;padding: 0 12px;color: #555658;line-height: 80px;border-bottom: 5px solid #FFF;height: 75px;}
+.nav-list a:after{ position: absolute;top: 36px;left: 0;display: block;width: 7px;height: 7px;margin: auto;content: '';}
 .nav-list a + a{ margin-left: 30px;}
 .nav-list a.active,.nav-list a:hover{ border-bottom: 5px solid #7f2d28;}
 .nav-list a.active:after,.nav-list a:hover:after{ background-color: #7f2d28;}
