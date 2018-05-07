@@ -73,7 +73,7 @@ body,html{color: #333;height: 100%;}
 .nav-list span{ font-size: 12px;display: block;margin-top: 10px;text-transform: uppercase;color: #9d9d9e;}
 
 /*页面底部*/
-.footer{ font-family: 'MicrosoftYaHei-Bold';width: 100%;height: 143px;margin-top: 60px;margin-bottom: 20%;border-top: 5px solid #7f2d28;border-bottom: 2px solid #7f2d28;}
+.footer{ font-family: 'MicrosoftYaHei-Bold';width: 100%;height: 143px;margin-top: 60px;margin-bottom: 50px;border-top: 5px solid #7f2d28;border-bottom: 2px solid #7f2d28;}
 .footer .footer-contact{ font-size: 20px;float: left;box-sizing: border-box;width: 22%;padding: 36px 20px;color: #535353;}
 .footer .footer-contact .tel{font-family: 'plates1999';font-size: 46px;margin-top: 12px; color: #555;}
 .footer .footer-about{ font-size: 14px;line-height: 24px;float: left;box-sizing: border-box;width: 42%;padding: 36px 0 36px 72px;color: #666;border-left: 1px solid #e4e4e4;}
